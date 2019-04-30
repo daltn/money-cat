@@ -620,6 +620,26 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+#logo {
+  position: fixed;
+  width: 20%;
+}
+
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
