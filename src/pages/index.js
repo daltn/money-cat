@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
@@ -11,13 +10,19 @@ const IndexPage = () => (
       title="Money Cat"
       keywords={[`money cat records`, `brooklyn`, `house music`, `house gifs`]}
     />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <h3>Preview</h3>
+    <a href="https://soundcloud.com/moneycatrecs">Soundcloud</a>
+    <h3>NYC</h3>
+    <a href="https://halcyontheshop.com/money-cat-records/">Halcyon</a>
+    <h3>Purchase</h3>
+    <a href="https://www.juno.co.uk/labels/Money+Cat+US/">Juno</a>
+    <a href="https://www.redeyerecords.co.uk/record-label-releases/20360-money-cat-records">
+      Redeye
+    </a>
+    <a href="https://www.deejay.de/Money_Cat_Records__L36589">deejay.de</a>
   </Layout>
 )
 
