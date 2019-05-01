@@ -82,6 +82,11 @@ const IndexPage = () => {
           </a>
         </div>
         <div className="column">
+          <h1>
+            HOT-N-READY
+            <br />
+            HOUSE-N-DISCO
+          </h1>
           <a href="mailto:moneycatrecs@gmail.com">moneycatrecs@gmail.com</a>
           <h3>NYC</h3>
           Human Head
