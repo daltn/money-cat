@@ -2,16 +2,19 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Listing from "../components/listing"
 
 import mcr001Gif from "../images/MCR001.gif"
 import mcr001Img from "../images/MCR001_B.jpg"
+import mcr001FrontImg from "../images/MCR001_A.jpg"
 import mcr002Gif from "../images/MCR002.gif"
 import mcr002Img from "../images/MCR002_B.jpg"
-import logoImg from "../images/logo.jpg"
-import logoGif from "../images/logo.gif"
+import mcr002FrontImg from "../images/MCR002_A.jpg"
+import logoText from "../images/logo-invert.png"
+import logoTextGif from "../images/logo-invert.gif"
 
 const IndexPage = () => {
-  let logo = null
+  let logoTextRef = null
   let mcr001Ref = null
   let mcr002Ref = null
   return (
@@ -34,37 +37,34 @@ const IndexPage = () => {
             marginBottom: `1.45rem`,
           }}
         >
-          <div id="logo">
-            <img
-              ref={img => (logo = img)}
-              onMouseOver={() => {
-                logo.src = logoGif
-              }}
-              onMouseOut={() => {
-                logo.src = logoImg
-              }}
-              src={logoImg}
-              alt="money-cat-logo"
-              width="250"
-            />
+          <img
+            id="logo-text"
+            ref={img => (logoTextRef = img)}
+            onMouseOver={() => {
+              logoTextRef.src = logoTextGif
+            }}
+            onMouseOut={() => {
+              logoTextRef.src = logoText
+            }}
+            src={logoText}
+            alt="money-cat-logo"
+            width="200"
+          />
+          <div className="description">
+            <h3>GOOD LUCK</h3>
+            Founded by{" "}
+            <a href="https://soundcloud.com/malikhendricks">Malik Hendricks</a>
+            <br /> & <a href="https://soundcloud.com/djfinetouch">
+              Fine Touch
+            </a>{" "}
+            in 2018.
+            <br />
+            <h3>Contact:</h3>
+            <a href="mailto:moneycatrecs@gmail.com">moneycatrecs@gmail.com</a>
           </div>
+          <Listing />
         </div>
         <div className="column">
-          <a href="https://soundcloud.com/moneycatrecs/sets/penthouse-edits-vol-1">
-            <img
-              className="label"
-              ref={img => (mcr001Ref = img)}
-              onMouseOver={() => {
-                mcr001Ref.src = mcr001Gif
-              }}
-              onMouseOut={() => {
-                mcr001Ref.src = mcr001Img
-              }}
-              src={mcr001Img}
-              alt="mcr001"
-              width="400"
-            />
-          </a>
           <a href="https://soundcloud.com/moneycatrecs/malik-hendricks-black-chakra-ep-preview">
             <img
               className="label"
@@ -73,33 +73,39 @@ const IndexPage = () => {
                 mcr002Ref.src = mcr002Gif
               }}
               onMouseOut={() => {
-                mcr002Ref.src = mcr002Img
+                mcr002Ref.src = mcr002FrontImg
               }}
-              src={mcr002Img}
+              src={mcr002FrontImg}
               alt="mcr001"
               width="400"
             />
+            <img
+              className="label"
+              src={mcr002Img}
+              alt="MCR002-B-Side"
+              width="400"
+            />
           </a>
-        </div>
-        <div className="column">
-          <h1>
-            HOT-N-READY
-            <br />
-            HOUSE-N-DISCO
-          </h1>
-          <a href="mailto:moneycatrecs@gmail.com">moneycatrecs@gmail.com</a>
-          <h3>NYC</h3>
-          Human Head
-          <br />
-          A1
-          <a href="https://halcyontheshop.com/money-cat-records/">Halcyon</a>
-          <h3>Worldwide</h3>
-          <a href="https://www.juno.co.uk/labels/Money+Cat+US/">Juno</a>
-          <a href="https://www.redeyerecords.co.uk/record-label-releases/20360-money-cat-records">
-            Redeye
-          </a>
-          <a href="https://www.deejay.de/Money_Cat_Records__L36589">
-            deejay.de
+          <a href="https://soundcloud.com/moneycatrecs/sets/penthouse-edits-vol-1">
+            <img
+              className="label"
+              ref={img => (mcr001Ref = img)}
+              onMouseOver={() => {
+                mcr001Ref.src = mcr001Gif
+              }}
+              onMouseOut={() => {
+                mcr001Ref.src = mcr001FrontImg
+              }}
+              src={mcr001FrontImg}
+              alt="mcr001"
+              width="400"
+            />
+            <img
+              className="label"
+              src={mcr001Img}
+              alt="MCR002-B-Side"
+              width="400"
+            />
           </a>
         </div>
       </section>
