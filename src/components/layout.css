@@ -67,12 +67,6 @@ a:hover {
   width: 100%;
 }
 
-#logo {
-  /* position: fixed; */
-  /* width: 20%; */
-  /* display: none; */
-}
-
 #logo-text {
   position: fixed;
   border-radius: 0;
@@ -92,7 +86,7 @@ a:hover {
   html {
     font-size: 100%;
   }
-  #logo {
-    display: none;
+  .description {
+    text-align: center;
   }
 }

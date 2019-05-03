@@ -57,11 +57,12 @@ const IndexPage = () => {
             <br /> & <a href="https://soundcloud.com/djfinetouch">
               Fine Touch
             </a>{" "}
-            in 2018.
+            in 2018
             <br />
-            <h3>Contact:</h3>
-            <a href="mailto:moneycatrecs@gmail.com">moneycatrecs@gmail.com</a>
+            <br />
+            <a href="mailto:moneycatrecs@gmail.com">Contact Us</a>
           </div>
+          {console.log("dev by 👽 https://pulse-code.com/")}
           <Listing />
         </div>
         <div className="column">
