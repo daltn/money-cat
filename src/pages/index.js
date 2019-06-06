@@ -51,7 +51,7 @@ const IndexPage = () => {
             width="200"
           />
           <div className="description">
-            <h3>GOOD LUCK</h3>
+            <h3 className="goodLuck">GOOD LUCK</h3>
             Founded by{" "}
             <a href="https://soundcloud.com/malikhendricks">Malik Hendricks</a>
             <br /> & <a href="https://soundcloud.com/djfinetouch">

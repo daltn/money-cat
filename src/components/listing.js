@@ -1,7 +1,7 @@
 import React from "react"
 
 const Listing = () => (
-  <div className="column">
+  <div className="column avail">
     <h3>NYC</h3>
     <a href="https://www.discogs.com/user/humanheadnyc">Human Head</a>
     <a href="https://www.instagram.com/a1recordshop/?hl=en">A1 Records</a>
