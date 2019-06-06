@@ -18,11 +18,8 @@ const Email = () => {
             name="EMAIL"
             className="email"
             placeholder="email"
+            required
           />
-          <div id="mce-responses" className="clear">
-            <div id="mce-error-response" style={{ display: `none` }} />
-            <div id="mce-success-response" style={{ display: `none` }} />
-          </div>
           <div
             style={{ position: `absolute`, left: `-5000px` }}
             aria-hidden="true"

@@ -89,6 +89,21 @@ h3 {
 
 .description {
   padding-top: 7vh;
+  position: relative;
+}
+
+.pics span {
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+}
+
+.pics:hover,
+.pics:hover span {
+  visibility: visible;
+  top: 0;
+  left: 250px;
+  z-index: 1;
 }
 
 .purchase {

@@ -14,6 +14,9 @@ import mcr002FrontImg from "../images/MCR002_A.jpg"
 import logoText from "../images/logo-invert.png"
 import logoTextGif from "../images/logo-invert.gif"
 
+import malik from "../images/malik.jpg"
+import tocaFina from "../images/finetouch.jpg"
+
 const IndexPage = () => {
   let logoTextRef = null
   let mcr001Ref = null
@@ -54,9 +57,20 @@ const IndexPage = () => {
           <div className="description">
             <h3>GOOD LUCK</h3>
             Founded by{" "}
-            <a href="https://soundcloud.com/malikhendricks">Malik Hendricks</a>
-            <br /> & <a href="https://soundcloud.com/djfinetouch">
+            <a className="pics" href="https://soundcloud.com/malikhendricks">
+              Malik Hendricks
+              <span>
+                {" "}
+                <img src={malik} alt="malik" width="200" />
+              </span>
+            </a>
+            <br /> &{" "}
+            <a className="pics" href="https://soundcloud.com/djfinetouch">
               Fine Touch
+              <span>
+                {" "}
+                <img src={tocaFina} alt="Fine Touch" width="200" />
+              </span>
             </a>{" "}
             in 2018
             <br />
