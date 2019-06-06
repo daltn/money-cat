@@ -10,7 +10,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0a0a0a;
+  background-color: #111111;
   color: #fcfcfc;
 }
 article,
@@ -146,7 +146,7 @@ strong {
 
 .subscribe {
   color: #fcfcfc;
-  background-color: black;
+  background-color: #111111;
   padding: 5px;
   margin-top: 8px;
   font-family: "Work Sans", sans-serif;
@@ -155,7 +155,7 @@ strong {
 }
 
 .subscribe:hover {
-  color: black;
+  color: #111111;
   background-color: #fcfcfc;
 }
 
