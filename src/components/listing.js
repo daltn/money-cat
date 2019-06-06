@@ -1,13 +1,15 @@
 import React from "react"
 
 const Listing = () => (
-  <div className="column avail">
-    <h3>NYC</h3>
+  <section className="column">
+    <h3>⬇ PURCHASE </h3>
+    <strong>NYC</strong>
     <a href="https://www.discogs.com/user/humanheadnyc">Human Head</a>
     <a href="https://www.instagram.com/a1recordshop/?hl=en">A1 Records</a>
     <a href="https://themixtapeshop.com/">The Mixtape Shop</a>
     <a href="https://halcyontheshop.com/money-cat-records/">Halcyon</a>
-    <h3>Worldwide</h3>
+    <br />
+    <strong>Worldwide</strong>
     <a href="https://www.juno.co.uk/labels/Money+Cat+US/">Juno</a>
     <a href="https://www.redeyerecords.co.uk/record-label-releases/20360-money-cat-records">
       Redeye
@@ -19,7 +21,7 @@ const Listing = () => (
       Technique
     </a>
     <a href="https://www.deejay.de/Money_Cat_Records__L36589">deejay.de</a>
-  </div>
+  </section>
 )
 
 export default Listing

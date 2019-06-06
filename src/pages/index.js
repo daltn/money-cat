@@ -52,7 +52,7 @@ const IndexPage = () => {
             width="200"
           />
           <div className="description">
-            <h3 className="goodLuck">GOOD LUCK</h3>
+            <h3>GOOD LUCK</h3>
             Founded by{" "}
             <a href="https://soundcloud.com/malikhendricks">Malik Hendricks</a>
             <br /> & <a href="https://soundcloud.com/djfinetouch">
@@ -61,7 +61,12 @@ const IndexPage = () => {
             in 2018
             <br />
             <br />
-            <a href="mailto:moneycatrecs@gmail.com">Contact Us</a>
+            <a href="mailto:moneycatrecs@gmail.com">
+              <span role="img" aria-label="incoming envelope">
+                📨
+              </span>{" "}
+              Contact Us{" "}
+            </a>
           </div>
           {console.log("dev by 👽 https://pulse-code.com/")}
           <Email />

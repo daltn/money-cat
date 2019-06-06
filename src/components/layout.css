@@ -58,6 +58,8 @@ a:hover {
 
 h3 {
   letter-spacing: 1px;
+  margin: 15px 0;
+  letter-spacing: 1.5px;
 }
 
 .column {
@@ -89,8 +91,8 @@ h3 {
   padding-top: 7vh;
 }
 
-.goodLuck {
-  letter-spacing: 2px;
+.purchase {
+  margin-bottom: 0;
 }
 
 .email {
@@ -102,7 +104,11 @@ h3 {
   outline: none;
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
-  width: 50%;
+  width: 48%;
+}
+
+strong {
+  letter-spacing: 1px;
 }
 
 ::-webkit-input-placeholder {
@@ -130,7 +136,6 @@ h3 {
   font-family: "Work Sans", sans-serif;
   font-size: 1rem;
   width: 50%;
-  border-radius: 2px;
 }
 
 .subscribe:hover {

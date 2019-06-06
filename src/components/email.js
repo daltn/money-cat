@@ -12,7 +12,7 @@ const Email = () => {
         noValidate
       >
         <div id="mc_embed_signup_scroll">
-          <h3>Updates ⬇</h3>
+          <h3>⬇ UPDATES</h3>
           <input
             type="email"
             name="EMAIL"
@@ -31,13 +31,12 @@ const Email = () => {
               type="text"
               name="b_12ab16faa82ae8f5d90b379a4_54a7e3652f"
               tabIndex="-1"
-              value=""
             />{" "}
           </div>
           <div className="clear">
             <input
               type="submit"
-              value="Subscribe"
+              value="subscribe"
               name="subscribe"
               id="mc-embedded-subscribe"
               className="subscribe"
