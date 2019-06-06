@@ -79,6 +79,7 @@ h3 {
 #logo-text {
   position: fixed;
   border-radius: 0;
+  z-index: 10;
 }
 
 .label {
