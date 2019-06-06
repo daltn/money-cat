@@ -12,7 +12,7 @@ const Email = () => {
         noValidate
       >
         <div id="mc_embed_signup_scroll">
-          <h3>Stay in touch</h3>
+          <h3>Updates ⬇</h3>
           <input
             type="email"
             name="EMAIL"
@@ -40,7 +40,7 @@ const Email = () => {
               value="Subscribe"
               name="subscribe"
               id="mc-embedded-subscribe"
-              className="button"
+              className="subscribe"
             />
           </div>
         </div>
