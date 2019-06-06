@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Listing from "../components/listing"
+import Email from "../components/email"
 
 import mcr001Gif from "../images/MCR001.gif"
 import mcr001Img from "../images/MCR001_B.jpg"
@@ -63,6 +64,7 @@ const IndexPage = () => {
             <a href="mailto:moneycatrecs@gmail.com">Contact Us</a>
           </div>
           {console.log("dev by 👽 https://pulse-code.com/")}
+          <Email />
           <Listing />
         </div>
         <div className="column">
