@@ -4,7 +4,7 @@ const Email = () => {
   return (
     <Fragment>
       <form
-        action="https://dance.us14.list-manage.com/subscribe/post?u=12ab16faa82ae8f5d90b379a4&amp;id=54a7e3652f"
+        action="https://gmail.us20.list-manage.com/subscribe/post?u=918fd4bfc7dee975d283fcb5d&amp;id=2f16a80a16"
         method="post"
         name="mc-embedded-subscribe-form"
         className="validate"
