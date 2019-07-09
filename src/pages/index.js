@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Listing from "../components/listing"
 import Email from "../components/email"
+import BlogListing from "../components/blogListing"
 
 import mcr001Gif from "../images/MCR001.gif"
 import mcr001Img from "../images/MCR001_B.jpg"
@@ -13,7 +14,6 @@ import mcr002Img from "../images/MCR002_B.jpg"
 import mcr002FrontImg from "../images/MCR002_A.jpg"
 import logoText from "../images/logo-invert.png"
 import logoTextGif from "../images/logo-invert.gif"
-
 import malik from "../images/malik.jpg"
 import tocaFina from "../images/finetouch.jpg"
 
@@ -129,6 +129,7 @@ const IndexPage = () => {
               width="400"
             />
           </a>
+          <BlogListing />
         </div>
       </section>
     </Layout>
