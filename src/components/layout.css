@@ -57,7 +57,9 @@ a:hover {
 }
 
 h1 {
-  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: 2px;
 }
 
 h3 {
@@ -78,6 +80,10 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.sidebar {
+  margin-right: 10vw;
 }
 
 #logo-text {

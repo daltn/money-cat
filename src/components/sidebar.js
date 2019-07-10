@@ -10,7 +10,7 @@ import tocaFina from "../images/finetouch.jpg"
 const Sidebar = () => {
   let logoTextRef = null
   return (
-    <section>
+    <section className="sidebar">
       <div
         className="column"
         style={{

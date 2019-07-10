@@ -28,7 +28,7 @@ const BlogListing = () => (
       allMarkdownRemark.edges.map(({ node }) => (
         <article key={node.frontmatter.slug}>
           <Link to={`/posts${node.frontmatter.slug}`}>
-            <h2>{node.frontmatter.title}</h2>
+            <h3>{node.frontmatter.title}</h3>
           </Link>
           <div
             dangerouslySetInnerHTML={{

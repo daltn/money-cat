@@ -15,6 +15,7 @@ const Releases = () => {
   return (
     <div className="column">
       <h1>RELEASES</h1>
+      <h3>MCR002</h3>
       <a href="https://soundcloud.com/moneycatrecs/malik-hendricks-black-chakra-ep-preview">
         <img
           className="label"
@@ -36,6 +37,7 @@ const Releases = () => {
           width="300"
         />
       </a>
+      <h3>MCR001</h3>
       <a href="https://soundcloud.com/moneycatrecs/sets/penthouse-edits-vol-1">
         <img
           className="label"
@@ -57,6 +59,7 @@ const Releases = () => {
           width="300"
         />
       </a>
+      <h1>MIXES</h1>
       <BlogListing />
     </div>
   )
