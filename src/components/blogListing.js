@@ -9,7 +9,7 @@ const BLOG_QUERY = graphql`
     ) {
       edges {
         node {
-          excerpt
+          html
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             title
@@ -30,11 +30,11 @@ const BlogListing = () => (
           <Link to={`/posts${node.frontmatter.slug}`}>
             <h2>{node.frontmatter.title}</h2>
           </Link>
-          <p>{node.frontmatter.date}</p>
-          <p>{node.excerpt}</p>
-          <Link class="read-more" to={`/posts${node.frontmatter.slug}`}>
-            Read More
-          </Link>
+          <div
+            dangerouslySetInnerHTML={{
+              __html: node.html,
+            }}
+          />
         </article>
       ))
     }

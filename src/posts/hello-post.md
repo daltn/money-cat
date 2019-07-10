@@ -1,6 +1,6 @@
 ---
-slug: "/first-post"
-title: "Our First Post"
+slug: "/halfmoon11-28"
+title: "Half Moon - 11.28.18"
 date: "2019-01-12"
 ---
 
