@@ -16,7 +16,7 @@ collections:
           label: "Slug",
           name: "slug",
           widget: "string",
-          hint: "URL safe slug plz",
+          hint: "Needs to start with a slash. URL safe plz. example: /the-lot-radio-12-20-19",
           pattern:
             [
               "[a-zA-Z0-9_-]",
