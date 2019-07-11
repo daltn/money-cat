@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import { graphql } from "gatsby"
 import Layout from "./layout.js"
+import Sidebar from "../components/sidebar"
 
 export default class postLayout extends Component {
   render() {
@@ -10,12 +11,16 @@ export default class postLayout extends Component {
 
     return (
       <Layout location={location}>
-        <h1>{markdownRemark.frontmatter.title}</h1>
-        <div
-          dangerouslySetInnerHTML={{
-            __html: markdownRemark.html,
-          }}
-        />
+        <Sidebar />
+        <section className="column">
+          <h1>{markdownRemark.frontmatter.title}</h1>
+          <div
+            style={{ marginTop: `20px` }}
+            dangerouslySetInnerHTML={{
+              __html: markdownRemark.html,
+            }}
+          />
+        </section>
       </Layout>
     )
   }

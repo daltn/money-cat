@@ -18,19 +18,21 @@ const Sidebar = () => {
           marginBottom: `1.45rem`,
         }}
       >
-        <img
-          id="logo-text"
-          ref={img => (logoTextRef = img)}
-          onMouseOver={() => {
-            logoTextRef.src = logoTextGif
-          }}
-          onMouseOut={() => {
-            logoTextRef.src = logoText
-          }}
-          src={logoText}
-          alt="money-cat-logo"
-          width="200"
-        />
+        <a href="https://www.moneycatrecs.com/">
+          <img
+            id="logo-text"
+            ref={img => (logoTextRef = img)}
+            onMouseOver={() => {
+              logoTextRef.src = logoTextGif
+            }}
+            onMouseOut={() => {
+              logoTextRef.src = logoText
+            }}
+            src={logoText}
+            alt="money-cat-logo"
+            width="200"
+          />
+        </a>
         <div className="description">
           <h3>GOOD LUCK</h3>
           Founded by{" "}

@@ -25,7 +25,9 @@ const Layout = ({ children }) => (
             paddingTop: `10vh`,
           }}
         >
-          <main>{children}</main>
+          <main>
+            <section className="row">{children}</section>
+          </main>
         </div>
       </>
     )}

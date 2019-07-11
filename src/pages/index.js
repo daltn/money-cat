@@ -17,10 +17,8 @@ const IndexPage = () => {
           `techno`,
         ]}
       />
-      <section className="row">
-        <Sidebar />
-        <Releases />
-      </section>
+      <Sidebar />
+      <Releases />
     </Layout>
   )
 }
