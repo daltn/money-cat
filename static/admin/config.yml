@@ -11,8 +11,18 @@ collections:
     label: "Posts"
     folder: "src/posts"
     create: true
-    slug: "{{slug}}"
     fields:
+      - {
+          label: "Slug",
+          name: "slug",
+          widget: "string",
+          hint: "URL safe slug plz",
+          pattern:
+            [
+              "[a-zA-Z0-9_-]",
+              "Must have be URL safe. Only letters, numbers, and dashes",
+            ],
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
-      - { label: "Content", name: "content", widget: "markdown" }
+      - { label: "Body", name: "body", widget: "markdown" }
