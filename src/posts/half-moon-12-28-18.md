@@ -1,5 +1,5 @@
 ---
-slug: /halfmoon-12-28-18
+slug: /halfmoon-122818
 title: Half Moon - 12.28.18
 date: 2019-07-11T04:18:09.948Z
 ---
