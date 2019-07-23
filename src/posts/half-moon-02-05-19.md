@@ -1,6 +1,0 @@
----
-slug: /half-moon-02-05-19
-title: Half Moon - 02.05.19
-date: 2019-07-22T23:49:30.493Z
----
-<iframe width="100%" height="120" src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FHalfMoonbk%2Fmoney-cat-records-252019%2F" frameborder="0" ></iframe>
