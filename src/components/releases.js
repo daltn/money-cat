@@ -11,8 +11,11 @@ const Releases = () => {
   return (
     <div className="column">
       <h1>RELEASES</h1>
-      <h3>MCR003</h3>
-      <a href="https://www.discogs.com/Fine-Touch-Penthouse-Edits-Vol-2/release/14395761">
+      <h1 className="title">MCR003</h1>
+      <a
+        className="discogs-link"
+        href="https://www.discogs.com/Fine-Touch-Penthouse-Edits-Vol-2/release/14395761"
+      >
         Fine Touch - Penthouse Edits Vol. 2
       </a>
       <p>
@@ -38,8 +41,11 @@ const Releases = () => {
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/708993118&color=%230a0b0b&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       />
-      <h3>MCR002</h3>
-      <a href="https://www.discogs.com/Malik-Hendricks-Black-Chakra/release/13504359">
+      <h1 className="title">MCR002</h1>
+      <a
+        className="discogs-link"
+        href="https://www.discogs.com/Malik-Hendricks-Black-Chakra/release/13504359"
+      >
         Malik Hendricks - Black Chakra
       </a>
       <p>
@@ -77,8 +83,11 @@ const Releases = () => {
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/608145264&color=%23111111&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       />
-      <h3>MCR001</h3>
-      <a href="https://www.discogs.com/Fine-Touch-Malik-Hendricks-Penthouse-Edits-Vol1/release/12555593">
+      <h1 className="title">MCR001</h1>
+      <a
+        className="discogs-link"
+        href="https://www.discogs.com/Fine-Touch-Malik-Hendricks-Penthouse-Edits-Vol1/release/12555593"
+      >
         Fine Touch & Malik Hendricks - Penthouse Edits Vol 1
       </a>
       <p>
@@ -109,7 +118,7 @@ const Releases = () => {
         allow="autoplay"
         src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/607786554&color=%23282e2f&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
       />
-      <h1 className="mixes-title">MIXES</h1>
+      <h1 className="title">MIXES</h1>
       <BlogListing />
     </div>
   )

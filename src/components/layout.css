@@ -63,8 +63,12 @@ h1 {
   border-bottom: 1px solid #fff;
 }
 
-.mixes-title {
-  margin-top: 15%;
+.title {
+  margin-top: 10%;
+}
+
+.discogs-link {
+  margin-top: 2%;
 }
 
 h3 {
