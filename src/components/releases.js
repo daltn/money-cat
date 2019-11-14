@@ -9,7 +9,7 @@ import mcr003A from "../images/MCR003-A.jpg"
 import mcr003B from "../images/MCR003-B.jpg"
 const Releases = () => {
   return (
-    <div className="column">
+    <div className="column releases">
       <h1>RELEASES</h1>
       <h1 className="title">MCR003</h1>
       <a
