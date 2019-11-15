@@ -61,7 +61,6 @@ const Sidebar = () => {
             Contact Us{" "}
           </a>
         </div>
-        {console.log("dev by 👽 https://pulse-code.com/")}
         <Email />
         <Listing />
       </div>

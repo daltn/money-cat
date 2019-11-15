@@ -4,6 +4,7 @@ const Listing = () => (
   <section className="column">
     <h3>⬇ PURCHASE </h3>
     <strong>NYC</strong>
+    <a href="https://academy-lps.com/">Academy</a>
     <a href="https://www.discogs.com/user/humanheadnyc">Human Head</a>
     <a href="https://www.instagram.com/a1recordshop/?hl=en">A1 Records</a>
     <a href="https://themixtapeshop.com/">The Mixtape Shop</a>

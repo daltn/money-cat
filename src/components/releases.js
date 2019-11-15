@@ -7,6 +7,7 @@ import mcr002Img from "../images/MCR002_B.jpg"
 import mcr002FrontImg from "../images/MCR002_A.jpg"
 import mcr003A from "../images/MCR003-A.jpg"
 import mcr003B from "../images/MCR003-B.jpg"
+
 const Releases = () => {
   return (
     <div className="column releases">
