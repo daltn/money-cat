@@ -114,7 +114,6 @@ h3 {
   margin: 20px 20px;
   border-radius: 50%;
   position: inline-block;
-  transition: all 0.3s ease-in-out 0s;
 }
 
 .label:hover {
